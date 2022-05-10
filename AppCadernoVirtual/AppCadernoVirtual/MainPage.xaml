@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="App Caderno Virtual"
+             x:Class="AppCadernoVirtual.MainPage"
+             Style="{ StaticResource Fundo}">
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+
+        <!-- Botões (elemento) na interface gráfica que levam aos menus de matérias de seus respectivos anos -->
+        <!-- ao Primeiro Ano-->
+        <Button x:Name="BtnPrimeiro" 
+                Text="Primeiro Ano" 
+                Grid.Row="1" 
+                Grid.Column="1" 
+                Style="{ StaticResource BtnPadrao }"
+                Clicked="Btn_Primeiro"/>
+
+        <!-- ao Segundo Ano-->
+        <Button x:Name="BtnSegundo" 
+                Text="Segundo Ano"  
+                Grid.Row="2" 
+                Grid.Column="1" 
+                Style="{ StaticResource BtnPadrao }"
+                Clicked="Btn_Segundo"/>
+
+        <!-- ao Terceiro Ano-->
+        <Button x:Name="BtnTerceiro" 
+                Text="Terceiro Ano" 
+                Grid.Row="3" 
+                Grid.Column="1" 
+                Style="{ StaticResource BtnPadrao }"
+                Clicked="Btn_Terceiro"/>
+
+    </Grid>
+</ContentPage>

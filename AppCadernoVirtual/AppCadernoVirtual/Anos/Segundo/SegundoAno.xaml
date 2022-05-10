@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Anos.Segundo.SegundoAno"
+             Title="Segundo Ano"
+             Style="{ StaticResource Fundo}">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Padding="5">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+
+                <ImageButton x:Name="BtnArtes"
+                     Grid.Row="0"
+                     Grid.Column="0"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Artes"/>
+
+                <ImageButton x:Name="BtnBiologia"
+                     Grid.Row="0"
+                     Grid.Column="1"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Biologia"/>
+
+                <ImageButton x:Name="BtnFilosofia"
+                     Grid.Row="1"
+                     Grid.Column="0"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Filosofia"/>
+
+                <ImageButton x:Name="BtnFisica"
+                     Grid.Row="1"
+                     Grid.Column="1"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Fisica"/>
+
+                <ImageButton x:Name="BtnGeografia"
+                     Grid.Row="2"
+                     Grid.Column="0"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Geografia"/>
+
+                <ImageButton x:Name="BtnHistoria"
+                     Grid.Row="2"
+                     Grid.Column="1"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Historia"/>
+
+                <ImageButton x:Name="BtnIngles"
+                     Grid.Row="3"
+                     Grid.Column="0"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Ingles"/>
+
+                <ImageButton x:Name="BtnMatematica"
+                     Grid.Row="3"
+                     Grid.Column="1"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Matematica"/>
+
+                <ImageButton x:Name="BtnPortugues"
+                     Grid.Row="4"
+                     Grid.Column="0"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Portugues"/>
+
+                <ImageButton x:Name="BtnQuimica"
+                     Grid.Row="4"
+                     Grid.Column="1"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Quimica"/>
+
+                <ImageButton x:Name="BtnSociologia"
+                     Grid.Row="5"
+                     Grid.Column="0"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="300"
+                     Style="{ StaticResource BtnMaterias }"
+                     Clicked="Btn_Sociologia"/>
+
+
+            </Grid>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
